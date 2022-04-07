@@ -20,17 +20,26 @@
 //   return a;
 //}
 //checkSpam()
-//Создайте функцию truncate(str, maxlength), которая проверяет длину строки str и,
+//5.3.3//Создайте функцию truncate(str, maxlength), которая проверяет длину строки str и,
 //    если она превосходит maxlength, заменяет конец str на "…", так, чтобы её длина стала равна maxlength.
  //   Результатом функции должна быть та же строка, если усечение не требуется, либо, если необходимо, усечённая строка.
+//let a = prompt('Введите строку');
+//let b = prompt('Введите max');
+//let truncate =() => {
+ //   if (a.length > b) {
+//       alert (a.slice(0,+b) + '...' );
+//    } else {
+//        alert(a)
+//    }
+//    return a;
+//}
+//truncate()
+//5.3.4.Есть стоимость в виде строки "$120". То есть сначала идёт знак валюты, а затем – число.
+//    Создайте функцию extractCurrencyValue(str), которая будет из такой строки выделять
+//числовое значение и возвращать его.
 let a = prompt('Введите строку');
-let b = prompt('Введите max');
-let truncate =() => {
-    if (a.length > b) {
-       alert (a.slice(0,+b) + '...' );
-    } else {
-        alert(a)
-    }
-    return a;
+function extractCurrencyValue(str) {
+    return a = (+a.slice(1));
 }
-truncate()
+extractCurrencyValue()
+alert(a)
