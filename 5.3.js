@@ -38,7 +38,7 @@
 //    Создайте функцию extractCurrencyValue(str), которая будет из такой строки выделять
 //числовое значение и возвращать его.
 let a = prompt('Введите строку');
-function extractCurrencyValue(str) {
+function extractCurrencyValue() {
     return a = (+a.slice(1));
 }
 extractCurrencyValue()
