@@ -20,3 +20,17 @@
 //   return a;
 //}
 //checkSpam()
+//Создайте функцию truncate(str, maxlength), которая проверяет длину строки str и,
+//    если она превосходит maxlength, заменяет конец str на "…", так, чтобы её длина стала равна maxlength.
+ //   Результатом функции должна быть та же строка, если усечение не требуется, либо, если необходимо, усечённая строка.
+let a = prompt('Введите строку');
+let b = prompt('Введите max');
+let truncate =() => {
+    if (a.length > b) {
+       alert (a.slice(0,+b) + '...' );
+    } else {
+        alert(a)
+    }
+    return a;
+}
+truncate()
